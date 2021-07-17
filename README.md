@@ -10,7 +10,7 @@ We work with a team of 4 people:
 ## How to use
 
 #### Run model
-
+[Updating]
 #### Run WebApp
 <p>
 <img align="left" width="420" height="320" src="https://github.com/phattrann/Leaf-Classification-CNN/blob/master/demo/static/img/index.png"> 
@@ -27,4 +27,4 @@ python demo\app.py
 ```
 
 ## Link WebApp
-
+[Updating]

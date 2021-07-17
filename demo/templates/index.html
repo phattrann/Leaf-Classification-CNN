@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2TPK | Mango leaf disease classification</title>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/2TPK.png') }}" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<script>
+    function showloading() {
+        image = document.getElementById('loading_image');
+        image.style.display = 'inline'
+    }
+    var loadFile = function(event) {
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+        image.style.display = 'inline'
+    };
+</script>
+
+<style>
+    .img_holder img{
+        max-width: 100%; max-height: 100%;
+    }
+    .btn-file {
+    position: relative;
+    overflow: hidden;
+    }
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+</style>
+
+<body>
+<div class="container" style="margin: auto;width;40%; text-align: center; margin-top: 70px;  text-transform: uppercase">
+
+
+  <h1 style="margin: auto;width: 80%; text-align: center; margin-top: 10px;  text-transform: uppercase">Mango leaf disease classification</h1>
+
+   <div style="text-align: center; margin-top: 20px">
+<!--       <img style="max-width: 600px" src="{{ url_for('static', filename='img/cat_dog.jpg') }}"/>-->
+   </div>
+
+  <form action="/upload" method="post" enctype="multipart/form-data" style="margin-top: 50px; width: 60%; text-align: center; margin: auto;" onsubmit="">
+      <span class="text-left btn btn-default btn-file">
+        Upload Image <input type="file" name="image" onchange="loadFile(event)">
+    </span>
+
+
+      <span class="text-right">
+        <input type="submit" value="Predict" class="btn btn-primary" onclick="reload(true)">
+      </span>
+  </form>
+    <hr>
+    <p><img id="output" width="55%" height="55%" style="display: none;"/></p>
+    <h3 style="display: none;">
+      <b>I'm <span style="color: green;">{{ accuracy }} %</span> sure this is a
+        <span style="color: red;">{{ label }}</span></b>
+    </h3>
+    <div style="text-align: center">
+        <img id="loading_image" style="display: none" src="{{ url_for('static', filename='img/loading_.gif')}}">
+    </div>
+</div>
+</body>
+</html>

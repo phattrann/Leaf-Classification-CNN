@@ -9,5 +9,17 @@ We work with a team of 4 people:
 > Feel free to contact us for any further contribution 👍🤘🤗😜
 ## How to use
 
+#### Run model
+
+#### Run WebApp
+Run this comandline to install necessary library.
+```
+pip install -r demo\requirements.txt
+```
+When you done, run bellow and have fun.
+```
+python app.py
+```
+
 ## Link WebApp
 

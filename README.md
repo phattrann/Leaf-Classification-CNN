@@ -18,7 +18,7 @@ pip install -r demo\requirements.txt
 ```
 When you done, run bellow and have fun.
 ```
-python app.py
+python demo\app.py
 ```
 
 ## Link WebApp

@@ -12,9 +12,9 @@ We work with a team of 4 people:
 #### Run model
 [Updating]
 #### Run WebApp
-<p>
-<img align="left" width="420" height="320" src="https://github.com/phattrann/Leaf-Classification-CNN/blob/master/demo/static/img/index.png"> 
-<img  width="520" height="450" src="https://github.com/phattrann/Leaf-Classification-CNN/blob/master/demo/static/img/predict.png">
+<p align="left">
+<!-- <img  width="420" height="320" src="https://github.com/phattrann/Leaf-Classification-CNN/blob/master/demo/static/img/index.png">  -->
+<img   src="https://github.com/phattrann/Leaf-Classification-CNN/blob/master/demo/static/img/predict.png">
 </p>
 
 Run this comandline to install necessary library.

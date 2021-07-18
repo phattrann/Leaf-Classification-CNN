@@ -12,7 +12,7 @@ We work with a team of 4 people:
 #### Run model
 [Updating]
 #### Run WebApp
-<p align="left">
+<p align="center">
 <!-- <img  width="420" height="320" src="https://github.com/phattrann/Leaf-Classification-CNN/blob/master/demo/static/img/index.png">  -->
 <img   src="https://github.com/phattrann/Leaf-Classification-CNN/blob/master/demo/static/img/predict.png">
 </p>

@@ -1,40 +1,82 @@
-absl-py==0.7.1
+absl-py==0.12.0
+appdirs==1.4.4
 astor==0.7.1
-certifi==2019.3.9
-chardet==3.0.4
-Click==7.0
+astunparse==1.6.3
+cachetools==4.2.2
+certifi==2020.12.5
+cffi @ file:///C:/ci/cffi_1613247269562/work
+chardet @ file:///C:/ci/chardet_1605285153095/work
+click @ file:///home/linux1/recipes/ci/click_1610990599742/work
+cryptography @ file:///C:/ci/cryptography_1616769514516/work
+cycler==0.10.0
+distlib==0.3.1
+django-crispy-forms==1.11.2
 dominate==2.3.5
-Flask==1.0.2
-Flask-Bootstrap==3.3.7.1
+filelock==3.0.12
+Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
 Flask-WTF==0.14.2
-gast==0.2.2
+flatbuffers==1.12
+gast==0.3.3
 gevent==1.4.0
-greenlet==0.4.15
-grpcio==1.19.0
+google-auth==1.30.0
+google-auth-oauthlib==0.4.4
+google-pasta==0.2.0
+greenlet @ file:///C:/ci/greenlet_1611958382984/work
+grpcio==1.32.0
 gunicorn==19.9.0
-h5py==2.9.0
+h5py==2.10.0
 idna==2.8
+importlib-metadata==4.0.1
+importlib-resources==5.1.2
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1612213139570/work
 Keras==2.2.4
 Keras-Applications==1.0.7
-Keras-Preprocessing==1.0.9
+Keras-Preprocessing==1.1.2
+kiwisolver @ file:///C:/ci/kiwisolver_1612282446297/work
 Markdown==3.1
 MarkupSafe==1.1.1
+matplotlib @ file:///C:/ci/matplotlib-base_1592846129657/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
 mock==2.0.0
-numpy==1.16.2
+numpy==1.19.5
+oauthlib==3.1.0
+olefile==0.46
+opencv-python==4.5.1.48
+opt-einsum==3.3.0
 pbr==5.1.3
 Pillow==6.0.0
-protobuf==3.7.1
+protobuf==3.15.8
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+PySocks @ file:///C:/ci/pysocks_1605305839978/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
 PyYAML==5.1
-requests==2.21.0
+requests==2.25.1
+requests-oauthlib==1.3.0
+rsa==4.7.2
 scipy==1.2.1
-six==1.12.0
-tensorboard==1.12.2
-tensorflow-estimator==1.13.0
-tensorflow==1.12.2
+six @ file:///C:/ci/six_1605187303045/work
+tensorboard==2.5.0
+tensorboard-data-server==0.6.0
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.4.1
+tensorflow-estimator==2.4.0
 termcolor==1.1.0
-urllib3==1.24.2
+tornado @ file:///C:/ci/tornado_1606942379977/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1615925068909/work
+typing-extensions==3.7.4.3
+urllib3==1.24.3
+virtualenv==20.4.4
 visitor==0.1.3
-Werkzeug==0.15.3
-WTForms==2.2.1
+Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306197271/work
+wincertstore==0.2
+wrapt==1.12.1
+WTForms @ file:///tmp/build/80754af9/wtforms_1597707484216/work
+zipp==3.4.1

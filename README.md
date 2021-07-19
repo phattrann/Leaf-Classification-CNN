@@ -26,5 +26,4 @@ When you done, run bellow and have fun.
 python demo\app.py
 ```
 
-## Link WebApp
-[Updating]
+

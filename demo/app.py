@@ -89,7 +89,7 @@ def upload_file():
         file.save(fullname)
         img = Image.open(fullname)
         if img.size != (256, 256) :
-            OUTPUT_PATH = 'C:/Users/DELL/Desktop/2TPK_demo/static/uploads'
+            OUTPUT_PATH = './static/uploads'
 
             files = []
             # r=root, d=directories, f = files

@@ -23,7 +23,8 @@ pip install -r demo\requirements.txt
 ```
 When you done, run bellow and have fun.
 ```
-python demo\app.py
+cd demo
+python app.py
 ```
 
 
